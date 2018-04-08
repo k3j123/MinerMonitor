@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">MinerMonitor</string>
+
+    <!--
+    All API calls required for zcash
+    -->
+    <string name="accountBalance">https://api.nanopool.org/v1/zec/balance/</string>
+    <string name="presetAvgHashrate">https://api.nanopool.org/v1/zec/avghashrate/</string>
+    <string name="currentHashrate">https://api.nanopool.org/v1/zec/hashrate/</string>
+    <string name="generalInfo">https://api.nanopool.org/v1/zec/user/</string>
+    <string name="hashrateAndBalance">https://api.nanopool.org/v1/zec/balance_hashrate/</string>
+    <string name="listOfWorkers">https://api.nanopool.org/v1/zec/workers/</string>
+    <string name="listPayments">https://api.nanopool.org/v1/zec/payments/</string>
+    <string name="paymentOneDay">https://api.nanopool.org/v1/zec/paymentsday/</string>
+    <string name="hashrateCalculator">https://api.nanopool.org/v1/zec/approximated_earnings/</string>
+    <string name="zecCurrentPrices">https://api.nanopool.org/v1/zec/prices</string>
+    <string name="zecTopMiners">https://api.nanopool.org/v1/zec/pool/topminers</string>
+
 </resources>
