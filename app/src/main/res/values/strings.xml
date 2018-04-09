@@ -4,8 +4,10 @@
     <!--
     All API calls required for zcash
     -->
-    <string name="accountBalance">https://api.nanopool.org/v1/zec/balance/</string>
-    <string name="presetAvgHashrate">https://api.nanopool.org/v1/zec/avghashrate/</string>
+
+    <string name="accountAddress">t1bnBRLNkHTqKCQfcgVjcGcXzq2rmB6z859</string>
+    <!--<string name="accountBalance">https://api.nanopool.org/v1/zec/balance/</string>-->
+    <string name="presetAvgHashrate">https://api.nanopool.org/v1/zec/avghashrate/</string>gi
     <string name="currentHashrate">https://api.nanopool.org/v1/zec/hashrate/</string>
     <string name="generalInfo">https://api.nanopool.org/v1/zec/user/</string>
     <string name="hashrateAndBalance">https://api.nanopool.org/v1/zec/balance_hashrate/</string>
