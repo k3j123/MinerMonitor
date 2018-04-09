@@ -14,4 +14,10 @@ public interface RetrofitInterface {
     /*Get Balance*/
     @GET("balance/{address}")
     Call<BalanceModel> getBalance(@Path("address") String address);
+
+    @GET("avghashrate/{address}")
+    Call<AVGHashModel> getAVGHashrate(@Path("address") String address);
+
+    @GET("hashrate/{address}")
+    Call<CurrentHashrateModel> getCurrentHashrate(@Path("address") String address);
 }
